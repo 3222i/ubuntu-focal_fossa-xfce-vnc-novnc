@@ -44,3 +44,7 @@ This image is for testing purposes. All changes in Docker will be lost if it is 
 
 -----
 This docker is for informational purposes about this guide series: https://knilixdock.wordpress.com/ubuntu-xfce-vnc-novnc/
+
+
+-----
+The original uploader fom the xfce-logo was Waldo the terrible at English Wikipedia., GPL <http://www.gnu.org/licenses/gpl.html>, via Wikimedia Commons

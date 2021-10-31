@@ -31,23 +31,6 @@ VNC & noVNC:
 sudo docker run -d --restart always -e VNC_PASSWORD=12345 -p 5900:5900 -p 6900:8080 --name ubuntu_xfce_vnc_novnc knilix/ubuntu-xfce-vnc-novnc
 
 -----
-Docker-Compose:
-
----
-version: '3.3'
-services:
-ubuntu-xfce-vnc-novnc:
-    restart: always
-    environment:
-        - VNC_PASSWORD=12345
-    ports:
-        - '5900:5900'  # VNC
-        - '6900:8080'  # noVNC
-    container_name: ubuntu_xfce_vnc_novnc
-    image: knilix/ubuntu-xfce-vnc-novnc
-
-
------
 Start in Browser: IP:6900/vnc.html
 
 -----
